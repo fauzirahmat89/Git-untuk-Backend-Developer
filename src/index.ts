@@ -45,6 +45,8 @@ app.get('/orders', (req: Request, res: Response) => {
     res.send('List of orders');
 });
 
+//simulasi ada bug
+
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
